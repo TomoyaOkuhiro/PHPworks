@@ -10,9 +10,8 @@
 
 <body>
   <?php
-  $security = "htmlspecialchars";
   // *スーパーグローバル変数
-  echo $security($__GET["a"]);
+  echo $__POST["a"];
   ?>
 </body>
 
