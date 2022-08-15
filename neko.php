@@ -17,7 +17,7 @@
   </form>
   <?php
   $security = htmlspecialchars($_POST["a"], ENT_QUOTES);
-  echo isset($security) && $security != "" ? $security . "にゃあ" : "何かしゃべって";
+  echo isset($security) && $security != "" ? $security . "ニャア" : "何かしゃべって";
   ?>
   <img src="neko.png" alt="ねこさん">
   <hr>
